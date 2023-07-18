@@ -26,4 +26,7 @@ public class IndexController {
 	public String notice() {
 		return "notice";
 	}
+
+	
+
 }

@@ -2,6 +2,8 @@
 	pageEncoding="UTF-8"%>
 
 <title>Insert title here</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <style type="text/css">
 body {
 	margin: 0;

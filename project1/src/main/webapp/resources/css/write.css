@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+.write-div{
+	margin:0 auto;
+	width: 800px;
+	height: auto;
+	background-color: gray;
+	padding: 10px;
+}
+
+.write-div input{
+	margin:0; padding:0;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.write-div textarea {
+}
+
+./* btn100{
+	margin-top: -20px;
+	width: 100%;
+	height: 30px;
+}
+	
+}
+
+.write-div button {
+	width: 100px;	
+}
+
+.btn {
+	width: 100px;	
+	height: 30px;
+	margin-top: -20px;
+}
+.ipt {
+	margin: 100px;
+	padding: 100px;
+	width: 200px;
+	
+}
+
+.tta {
+	margin: 100px;
+	padding: 100px;
+	width: 200px;
+	
+	
+	
+} */
+
+
+
+
