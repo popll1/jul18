@@ -1,36 +1,63 @@
 @charset "UTF-8";
 
-table{
+
+
+ table {
 	margin:0 auto;
 	width: 800px;
 	height: 500px;
 	border-collapse: collapse;
-}
-th{
-	height:50px;
-	background-color: gray;
-	border-bottom: 2px solid black;
-}
-td{
-	text-align: center;
-	border-bottom: 1px solid gray;
+	
 }
 
-.td1{
+}
+th {
+	height: 50px;
+	background-color: gray;
+	border-bottom: 2px solid black;
+	background-image: url('Back.jpg')
+}
+
+td {
+	text-align: center;
+	border-bottom: 1px solid gray;
+	background-image: url('Back.jpg')
+}
+
+.td1 {
 	width: 10%;
 }
 
-.td2{
+.td2 {
 	width: 20%;
 }
 
-.title{
+.title {
 	text-align: left;
 }
 
 tr:hover {
 	background-color: gray;
+} 
+
+body{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.0),
+        rgba(0, 0, 0, 0.0)
+      ), url('Back.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
 }
+
+
+
+
+
+
+
+
+
 
 
 

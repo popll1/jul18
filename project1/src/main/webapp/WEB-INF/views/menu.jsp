@@ -4,32 +4,32 @@
 <title>Insert title here</title>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="./css/menu.css">
 <style type="text/css">
 body {
 	margin: 0;
 	padding: 0;
 }
 
-nav {
-	/* position: fixed; */
-	top: 0;
-	width: 100%;
-	height: 50px;
-	background-color: gray;
-}
+
+
 
 nav ul {
+	
 	margin: 0;
 	padding: 0;
+	
 }
 
 nav li {
 	list-style: none; /* li 앞에 원을 없애줍니다. */
-	float: left;
-	width: 100px;
+	float : left;
+	width: 280px;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
+	margin: 0 20px;
+	
 }
 
 nav li:hover {

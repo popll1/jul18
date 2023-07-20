@@ -11,14 +11,12 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
+         
 <%@ include file ="menu.jsp"%>
 	<h1>보드</h1>
-	<img alt="" src="./img/Nf6O4wpPRb.jpg" height="100px">
 	<a href="./index">index로 가기</a>
 	
-	<p>피 테그입니다</p>
-	<br>br입니다</br>
-	<table>
+      <table>
 		<tr>
 			<th>번호</th>
 			<th>제목</th>
@@ -39,5 +37,7 @@
 	</table>
 	<button onclick="location.href='write'">글쓰기</button>
 
+      
+  
 </body>
 </html>	

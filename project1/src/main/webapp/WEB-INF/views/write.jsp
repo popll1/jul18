@@ -32,7 +32,7 @@
 	<form action="./write" method="post">
 		<div class="write-div">
 			<input class=ipt type="text" name="title">
-			<textarea id="summernote" name="editordata"></textarea>
+			<textarea id="summernote" name="content"></textarea>
 			<button class="btn" type="submit">글쓰기</button>
 	</div>
 	</form>
@@ -42,9 +42,9 @@
 		/* JQuery문법 : 문서가 모두 로딩되었다면,
 		textarea에 서머노트를 실행해 주세요.*/
 		$(document).ready(function() {
-			$('#summernote').summernote();
+			$('#summernote').smernote();
 			height: 400
 		});
-	</script>
+	</script>um
 </body>
 </html>

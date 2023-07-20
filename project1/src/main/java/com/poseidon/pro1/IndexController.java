@@ -26,6 +26,11 @@ public class IndexController {
 	public String notice() {
 		return "notice";
 	}
+	
+	@GetMapping("/ex")
+	public String ex() { 
+		return "ex";
+	}
 
 	
 
